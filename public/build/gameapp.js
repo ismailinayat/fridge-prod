@@ -1,7 +1,8 @@
 
 
 console.log(window.location.pathname)
-if (window.location.pathname === '/shop' || window.location.pathname === '/home' || window.location.pathname === '/home') {
+if (window.location.pathname === '/shop' || window.location.pathname === '/home' || window.location.pathname === '/home/') {
+	console.log(window.location.pathname)
 	function idleLogout() {
 		var t;
 		window.onload = resetTimer;
